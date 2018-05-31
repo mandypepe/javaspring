@@ -14,9 +14,7 @@ import javax.sound.midi.VoiceStatus;
 @SpringBootTest
 public class DevopsbuddyApplicationTests {
 
-    @Test
-    public void contextLoads() {
-    }
+
     @Autowired
     public I18NService i18NService;
     @Test
