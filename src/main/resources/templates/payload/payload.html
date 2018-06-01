@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/header :: common-header"/> <!-- formatp capete/nombre_pagina :: nombre del fragmento-->
+<body>
+<div  th:replace="common/navbar :: common-navbar"/>
+<div class="container">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="jumbotron">
+
+                    <div class="text-center">
+
+                        <h1>You've got the juice!</h1>
+
+                        <p class="lead" >If you can see this page it means you're logged in </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div><!-- /.container -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<div  th:replace="common/header :: before-body-scrpts"/> <!-- formatp capete/nombre_pagina :: nombre del fragmento-->
+
+</body>
+</html>
