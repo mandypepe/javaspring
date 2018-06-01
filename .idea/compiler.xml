@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="devopsbuddy" />
+        <module name="gestion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="devopsbuddy" target="1.8" />
+      <module name="gestion" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

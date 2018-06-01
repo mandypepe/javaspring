@@ -1,2 +1,0 @@
-# javaspring
-run comand
