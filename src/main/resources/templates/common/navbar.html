@@ -18,11 +18,11 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li th:if="${#authorization.expression('!isAuthenticated()')}">
+
                 <a  href="/login">Login</a>
 
                 </li>
-                <li th:if="${#authorization.expression('isAuthenticated()')}">
+
                     <form id="f" th:action="@{/logout}" method="post" role="form" class="navbar-form">
                         <button type="submit" class="btn btn-primary">Logout</button>
 
